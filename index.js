@@ -46,6 +46,7 @@ function total() {
 }
 
 function removeFromCart(item) {
+  
   if (cart.includes(item)) {
     var i = cart.indexOf(item); 
     cart.splice(i, 1);
