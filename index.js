@@ -48,7 +48,7 @@ function total() {
 function removeFromCart(item) {
   let item1 = cart.find(n => n.itemName === item);
   if (item1 != undefined) {
-    var i = cart.indexOf(item); 
+    var i = cart.indexOf(item1); 
     cart.splice(i, 1);
   }
   else {
